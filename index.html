@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BambooCuddle - Home Page</title>
+
+    <style>
+        body {
+ margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #5D9253;
+ color: black;}
+
+ /* HEADER */
+header {
+ background-color:#5D9253;
+ text-align: center;
+padding: 30px;
+border-bottom: 4px solid #5D9253;}
+
+ header h1 {
+font-size: 36px;
+margin: 0; }
+ 
+ <p>
+        Giant pandas originated in China millions of years ago.
+        They live in mountain forests and mainly eat bamboo.
+        In 1869, a giant panda was introduced to Western science.
+        Today, pandas are protected to help prevent their extinction.
+    </p>
+<p>
+<br>
+<tr>
+<h2><img src = "PandaHistory.jpg" width = "20%" height = "25%"alt="PandaHistory"></img></h2>
+</tr>
+</br>
+</p>
+</body>
+</html>
+
+
+header p {font-size: 18px;}
+
+/* NAVIGATION */
+ nav { text-align: center;
+ padding: 20px;}
+
+ nav a {display: inline-block;
+ padding: 12px 20px;
+margin: 5px;
+background-color: #76C457;
+border: 2px solid #4F5B2A;
+border-radius: 15px;
+ color: black;
+ text-decoration: none;}
+
+ nav a:hover {
+background-color: #76C457;}
+
+/* PANDA GALLERY */
+        .gallery {display: flex;
+justify-content: center;
+gap: 10px;
+margin: 20px;
+padding: 10px;
+background-color: white;
+border: 3px solid #76C457;
+ border-radius: 20px;}
+
+ .gallery img {width: 25%;height: 250px;
+ object-fit: cover;
+ border-radius: 15px;}
+
+/* CONTENT SECTIONS */
+.section {
+ background-color: #2A7C13;
+margin: 20px;
+padding: 25px;
+border: 3px solid #76C457;
+border-radius: 20px;text-align: center;}
+
+.section h2 { font-size: 28px; }
+
+.section p {
+font-size: 17px;
+line-height: 1.6;}
+
+/* FEATURED PANDA */
+        .featured {background-color: #2A7C13;
+margin: 20px;
+padding: 25px;
+border: 3px solid #76C457;
+border-radius: 20px;
+text-align: center;}
+
+.featured img {
+width: 80%;max-width: 450px;height: 300px;
+ object-fit: cover;
+ border-radius: 20px;
+border: 3px solid  #76C457;}
+
+/* FOOTER */
+footer {
+ text-align: center;
+padding: 20px;
+  background-color: #76C457;
+margin-top: 30px; }
+
+        /* MOBILE VIEW */
+        @media (max-width: 600px) {.gallery {flex-wrap: wrap;}
+
+            .gallery img {width: 45%;height: 180px;}
+
+ nav a {padding: 10px; margin: 4px;}
+
+  .section,
+  .featured { margin: 10px;padding: 15px;}
+.featured img {
+width: 100%;}
+ }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1> BambooCuddle</h1>
+    <p>Main Character Energy, Panda Only!</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="PandaStory.html">Panda Stories</a>
+    <a href="Panda History.html">Panda History</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+</nav>
+
+<!-- PANDA GALLERY -->
+<div class="gallery">
+    <img src="Panda1.jpg" alt="Cute Panda">
+    <img src="Panda2.jpg" alt="Panda Eating Bamboo">
+    <img src="Panda9.jpg" alt="Playful Panda">
+    <img src="Panda12.jpg" alt="Adorable Panda">
+</div>
+
+<!-- INTRODUCTION -->
+<div class="section">
+    <h2>Welcome to BambooCuddle! </h2>
+
+    <p>
+        Welcome to a cozy world of adorable pandas,
+        playful moments, and bamboo-filled adventures!
+    </p>
+
+    <p>
+        Discover cute panda photos, heartwarming stories,
+        interesting facts, and the importance of protecting pandas.
+    </p>
+
+    <p>
+        Our purpose is to spread panda love and encourage
+        everyone to help protect these adorable animals.
+    </p>
+</div>
+
+<!-- FEATURED PANDA -->
+<div class="featured">
+    <h2>Meet Our Featured Panda! </h2>
+
+    <img src="Panda21.jpg" alt="Featured Panda">
+
+    <h3>The Adorable Giant Panda</h3>
+
+    <p>
+        Giant pandas are famous for their black-and-white fur
+        and their love of bamboo. These gentle animals are
+        among the world's most beloved wildlife species.
+    </p>
+
+    <p>
+        Let's appreciate pandas and help protect their natural habitat!
+    </p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        Copyright © BambooCuddle<br>
+        AY 2026–2027<br>
+        All Rights Reserved 
+    </p>
+</footer>
+
+</body>
+</html>
